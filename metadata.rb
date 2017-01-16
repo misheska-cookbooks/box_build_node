@@ -7,3 +7,5 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 source_url 'https://github.com/misheska-cookbooks/box_build_node'
 issues_url 'https://github.com/misheska-cookbooks/box_build_node/issues'
 version '0.1.0'
+
+depends 'box_macos_settings', '~> 0.1'
